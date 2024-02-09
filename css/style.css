@@ -1,0 +1,284 @@
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/lato/Lato-Regular.woff2) format(woff2), url(../fonts/lato/Lato-Regular.woff) format(woff);
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/lato/Lato-Bold.woff2) format(woff2), url(../fonts/lato/Lato-Bold.woff) format(woff);
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url(../fonts/lato/Lato-Black.woff2) format(woff2), url(../fonts/lato/Lato-Black.woff) format(woff);
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal;
+}
+
+/* ======================МАКЕТ====================== */
+[class*="__container"]{
+	max-width: 850px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+
+.header {
+}
+
+
+.page {
+	font-family: "Lato";
+	color: #424551;
+}
+
+.title {
+}
+.title__container {
+	margin-top: 50px;
+	margin-bottom: 92px;
+}
+.title__text {
+	font-weight: 900;
+font-size: 46px;
+line-height: 1.3;
+letter-spacing: 0;
+color: #1E212C;
+}
+.image {
+}
+.image__container {
+	width: 100%;
+	margin-bottom: 60px;
+}
+.image__container img{
+	max-width: 100%;
+}
+.text-block {
+	line-height: 1.6;
+}
+.text-block__container {
+	margin-bottom: 92px;
+}
+.text-block__text-1 {
+	margin-bottom: 24px;
+}
+.dark {
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+}
+.text-block__text-2 {
+	margin-bottom: 32px;
+}
+.text-block__text-3 {
+	margin-bottom: 48px;
+}
+.text-block__text-4 {
+	margin-bottom: 48px;
+	padding-left: 58px;
+}
+.text-block__text-5 {
+	margin-bottom: 24px;
+}
+.text-block__list {
+	margin-bottom: 24px;
+	padding-left: 32px;
+}
+.text-block__list li{
+	margin-bottom: 4px;
+}
+.text-block__text-6 {
+}
+
+
+/* ======================Відпрацювання====================== */
+
+.background-page {
+	background: url(../img/cars/mitsubishi.jpg) no-repeat center / cover;
+	padding: 20px 0px;
+}
+.title0 {
+	/* margin-top: 30px; */
+}
+.title0__container {
+	background-color: #a3844b;
+	margin-bottom: 60px;
+	border: 3px solid #000;
+	border-radius: 15px;
+}
+.title0__text {
+	font-size: 56px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px #000;
+	line-height: 1.5;
+	letter-spacing: -5px;
+	word-spacing: 15px;
+	text-align: center;
+}
+.color {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px #000;
+}
+.color__container {
+	background-color: #9e5388;
+	margin-bottom: 60px;
+	border: 3px solid #000;
+	border-radius: 15px;
+	padding: 2%;
+}
+.color__title {
+	text-align: right;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px #000;
+	line-height: 1.5;
+	letter-spacing: 15px;
+	word-spacing: 15px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+}
+.color__text {
+}
+.image0 {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px #000;
+}
+.image0__container {
+	background-image: url(../img/cars/mazda.jpg);
+	margin-bottom: 60px;
+	border: 3px solid #000;
+	border-radius: 15px;
+	padding: 2%;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.image0__title {
+	text-align: left;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px #000;
+	line-height: 1.5;
+	letter-spacing: 15px;
+	word-spacing: 15px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	background-attachment: scroll;
+	background-size: cover;
+}
+.image0__text {
+}
+.gradient {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px #000;
+}
+.gradient__container {
+	background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(253,45,213,1) 50%, rgba(0,0,0,1) 100%);
+	margin-bottom: 60px;
+	border: 3px solid #000;
+	border-radius: 15px;
+	padding: 2%;
+}
+.gradient__title {
+	text-align: right;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px #000;
+	line-height: 1.5;
+	letter-spacing: 15px;
+	word-spacing: 15px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	background-attachment: scroll;
+	background-size: cover;
+}
+.gradient__text {
+}
+.image-2 {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px #000;
+}
+.image-2__container {
+	background-image: url(../img/cars/subaru.jpg);
+	margin-bottom: 60px;
+	border: 3px solid #000;
+	border-radius: 15px;
+	padding: 2%;
+	background-size: 50%;
+	background-repeat: repeat;
+	background-position: 20%;
+}
+.image-2__title {
+	text-align: center;
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px #000;
+	line-height: 1.5;
+	letter-spacing: 15px;
+	word-spacing: 15px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	background-attachment: scroll;
+	background-size: cover;
+}
+.image-2__text {
+}
+.image-3 {
+	font-size: 20px;
+	line-height: 1.6;
+	color: #ffffff;
+	text-shadow: 2px 2px 3px #000;
+}
+.image-3__container {
+	margin-bottom: 60px;
+	border: 3px solid #000;
+	border-radius: 15px;
+	padding: 2%;
+	background: url(../img/cars/audi.jpg) repeat-x right bottom / 350px, url(../img/cars/supra.jpg) repeat-y top right / 350px auto, radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
+}
+.image-3__title {
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 3px #000;
+	line-height: 1.5;
+	letter-spacing: 15px;
+	word-spacing: 15px;
+	margin-bottom: 20px;
+	text-decoration: underline;
+	background-attachment: scroll;
+	background-size: cover;
+}
+.image-3__text {
+}
+
+.footer {
+}
